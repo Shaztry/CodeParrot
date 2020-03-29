@@ -1,9 +1,9 @@
 import java.util.Scanner;
 /*
-    *
-   **
-  ***
- ****
+****
+ ***
+  **
+   *
 */
 class PatternRightangleUpRight{
   public static void rightangleUpRight(int size){
