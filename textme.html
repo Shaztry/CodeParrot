@@ -11,14 +11,10 @@
         color: white;
       }
       div.messageContainer{
-        position: absolute;
-        height: 40%;
-        width: 40%;
-        left: 50%;
-        margin-left: -20%;
+        height: 200px;
+        width: 100px;
       }
       input#name{
-        font-size: 25px;
         width: 100%;
         height: 20%;
         border-radius: 5px;
@@ -30,7 +26,6 @@
         height: 50%;
         border-radius: 5px;
         padding: 2px;
-        font-size: 20px;
       }
       button{
         border-radius: 5px;
@@ -40,13 +35,11 @@
       }
       p{
         color: white;
-        font-size: 10px;
       }
     </style>
     <script type="text/javascript">
       window.onload = function(){
         if(confirm("Mobile user??")){
-          document.body.style.zoom = "0%";
             alert("Okay then Please pinch to zoom out completely \n Thank you :) ");
         }
         document.getElementById('name') = "";
