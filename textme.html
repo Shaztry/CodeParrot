@@ -46,9 +46,11 @@
     </style>
     <script type="text/javascript">
       window.onload = function(){
+        if(confirm("Moile user??")){
+            alert("Okay then Please pinch to zoom out completely \n Thank you :) ");
+        }
         document.getElementById('name') = "";
         document.getElementById('message') = "";
-        alert("Mobile user??? \n Please pinch to zoom out completely \n Thank you :) ");
       }
       function display(){
         var name = document.getElementById('name').value;
