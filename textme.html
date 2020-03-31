@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Message Prank</title>
     <style media="screen">
       body{
         background: rgb(30,30,30);
-        zoom: 100%;
+        zoom: 10%;
       }
       h1{
         color: white;
@@ -46,6 +45,9 @@
       }
     </style>
     <script type="text/javascript">
+      window.onload = function(){
+        alert("Please pinch to zoom out completely \n Thank you :) ");
+      }
       function display(){
         var name = document.getElementById('name').value;
         if(name == ""){
